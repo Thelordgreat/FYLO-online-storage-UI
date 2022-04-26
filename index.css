@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: hsl(218, 28%, 13%);
+    color:  hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+    Font-size: 14px
+}
+
+h1,h2,h3{
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn{
+    background-color: hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%) ;
+    padding: 12px 24px;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+
+.container{
+    padding-top: 2rem;
+    margin: auto;
+}
+
+.navbar{
+    width: 100%;
+}
+
+i{
+    color: hsl(0, 0%, 100%);
+}
+.navbar__content{
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+}
+
+.navbar__links{
+    margin-left: 32rem;
+}
+
+.navbar__links a{
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.heading__content{
+    max-width: 50rem;
+    margin: auto;
+    text-align: center;
+}
+
+
+.heading__content .heading__text h2{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.heading__content .heading__text p{
+    font-size: 1rem;
+    max-width: 30rem;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.servives__container{
+    max-width: 55rem;
+    margin: auto;
+    margin-top: 8rem;
+    background-image: url(./img/bg-curvy-mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top__services{
+    display: flex;
+    width: 43rem;
+    margin: auto;
+}
+
+.top__services .box{
+    max-width: 20rem;
+    text-align: center;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    line-height: 1.5;
+}
+
+.top__services .box h3{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.top__services .box{
+    font-size: 1rem;
+}
+
+.bottom__services{
+    display: flex;
+    width: 43rem;
+    margin: auto;
+}
+
+.bottom__services .box{
+    max-width: 20rem;
+    text-align: center;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    line-height: 1.5;
+}
+
+.bottom__services .box h3{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.bottom__services .box p{
+    font-size: 1rem;
+}
+
+.works__container{
+    max-width: 65rem;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.works__container .works__content{
+    display: flex;
+}
+
+.works__container .works__content img{
+    width: 30rem;
+}
+
+.works__container .works__text{
+    margin-left: 3rem;
+    margin-top: 5rem;
+    line-height: 1.5;
+}
+
+.works__container .works__text h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.works__container .works__text p{
+    font-size: 1rem;
+}
+
+.works__container .works__text a{
+    font-size: 1rem;
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+}
+
+.works__container .works__text .arrow__icon{
+    width: 24px;
+}
+
+.testimonies__container{
+    max-width: 60rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.testimonies__container .quote{
+    margin-left: -2.5rem;
+}
+
+.testimonies__container .testimonies__content{
+    display: flex;
+}
+
+.testimonies__container .testimonies__content .box{
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    align-items: center;
+    background-color: hsl(219, 30%, 18%);
+}
+
+.testimonies__container .testimonies__content .box p{
+    font-size: .8rem;
+}
+
+.testimonies__container .testimonies__content .box img{
+    width: 45px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.testimonies__container .testimonies__content .box .box__headings{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.testimonies__container .testimonies__content .box .box__headings .box__headings__text{
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+
+.bottom__content__container{
+    position: relative;
+}
+
+
+.signup__form__container{
+    max-width: 45rem;
+    margin: auto;
+    transform: translateY(75px);
+    margin-top: -4rem;
+}
+
+.signup__form__container .signup__form__content{
+    text-align: center;
+    line-height: 2;
+    margin-top: 6rem;
+    background-color: hsl(217, 28%, 15%);
+    padding: 2rem;
+    
+}
+
+.signup__form__container .signup__form__content h2{
+    font-size: 2rem;
+}
+
+.signup__form__container .signup__form__content p{
+    font-size: 1rem
+}
+
+.signup__form__container .signup__form__content input{
+    padding: 12px 24px;
+    border-radius: 2rem;
+}
+
+.footer__container{
+    background-color: hsl(216, 53%, 9%);
+    width: 100%;
+    height: 40vh;
+}
+
+.footer__container .footer__content{
+    display: flex;
+    align-items: center;
+    max-width: 58rem;
+    margin: auto;
+    padding-top: 7rem;
+}
+
+.footer__container .footer__content .f1{
+    width: 20rem;
+}
+
+.footer__container .footer__content ul a{
+    color: hsl(0, 0%, 100%);
+    margin: 1.5rem;
+    line-height: 2;
+}
+
+.footer__container .footer__content .f2{
+    margin-left: 1.5rem;
+}
+
+.footer__container .footer__content .f2 a{
+    color: hsl(0, 0%, 100%);
+    
+    padding: 1rem;
+}
+
+.footer__container .footer__content .footer__icons{
+    margin-left: 4rem;
+    font-size: 1.1rem;
+}
+
+
+/* ================= MEDIA QUERIES ==================== */
+
+@media (max-width:700px){
+    .container{
+        width: 100%;
+        padding: 0;
+    }
+
+    .navbar__links{
+        margin-left: -8rem;
+        padding: 0;
+    }
+
+    .heading__content img{
+        width: 200px;
+    }
+
+    .servives__container .top__services .box{
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 420px){
+    .container{
+        width: 98%;
+        margin: auto;
+        
+    }
+
+    .navbar__links{
+        margin-left: 50px;
+    }
+
+    .top__services{
+        display:block;
+        width: 95%;
+        margin: auto;
+    }
+
+    .bottom__services{
+        display:block;
+        width: 95%;
+        margin: auto;
+    }
+
+    .works__container .works__content{
+        display: inline;
+        text-align: center;
+        margin: auto;
+    }
+
+    .testimonies__container .testimonies__content{
+        display: inline-block;
+    }
+}
