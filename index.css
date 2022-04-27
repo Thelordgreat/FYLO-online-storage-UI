@@ -250,7 +250,7 @@ i{
 .footer__container{
     background-color: hsl(216, 53%, 9%);
     width: 100%;
-    height: 40vh;
+    padding-bottom: 4rem;
 }
 
 .footer__container .footer__content{
@@ -307,6 +307,14 @@ i{
     .servives__container .top__services .box{
         max-width: 100%;
     }
+
+    .signup__form__container{
+        width: 98%;
+    }
+
+    .footer__container{
+        width: 100%;
+    }
 }
 
 
@@ -314,11 +322,24 @@ i{
     .container{
         width: 98%;
         margin: auto;
-        
+        padding-top: 1rem;
+    }
+
+    .heading__content img{
+        width: 95%;
+        margin: auto;
+    }
+
+    .heading__content .heading__text h2{
+        font-size: 2rem;
     }
 
     .navbar__links{
-        margin-left: 50px;
+        margin-left: 37px;
+    }
+
+    .navbar__links a{
+        padding: .5rem;
     }
 
     .top__services{
@@ -339,7 +360,55 @@ i{
         margin: auto;
     }
 
+    .works__container .works__content img.main{
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .works__container .works__content .works__text{
+        margin: auto;
+        line-height: 1.5;
+        margin-top: 2rem;
+    }
+
     .testimonies__container .testimonies__content{
         display: inline-block;
     }
+
+    .bottom__content__container{
+        width: 98%;
+    }
+
+    .signup__form__content a{
+        margin: 4rem;
+    }
+
+    .footer__container{
+        width: 100%;
+        height: 85vh;
+    }
+
+    .footer__container .footer__content{
+        display: inline;
+        margin: auto;
+        padding-top: 9rem;
+    }
+
+    .footer__container .footer__content .f1{
+        padding-top: 8rem;
+        padding-bottom: 3rem;
+        margin: auto;
+    }
+
+    .footer__container .footer__content ul{
+        display: inline;
+    }
+
+    .footer__container .footer__content .f3{
+        margin-left: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    
 }
