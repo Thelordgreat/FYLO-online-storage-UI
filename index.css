@@ -13,7 +13,8 @@ body{
     background-color: hsl(218, 28%, 13%);
     color:  hsl(0, 0%, 100%);
     font-family: 'Open Sans', sans-serif;
-    Font-size: 14px
+    Font-size: 14px;
+    scroll-behavior: smooth;
 }
 
 h1,h2,h3{
@@ -376,7 +377,7 @@ i{
     }
 
     .bottom__content__container{
-        width: 98%;
+        width: 100%;
     }
 
     .footer__container{
@@ -405,6 +406,5 @@ i{
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
-
-    
 }
+
