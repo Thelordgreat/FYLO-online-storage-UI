@@ -143,14 +143,18 @@ i{
     display: flex;
 }
 
+.works__container .works__content>div:nth-child(1){
+    flex: 1;
+}
+
 .works__container .works__content img{
     width: 30rem;
 }
 
 .works__container .works__text{
-    margin-left: 3rem;
     margin-top: 5rem;
     line-height: 1.5;
+    flex: 1;
 }
 
 .works__container .works__text h2{
@@ -191,6 +195,8 @@ i{
     padding: 1rem 1.5rem;
     align-items: center;
     background-color: hsl(219, 30%, 18%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
 }
 
 .testimonies__container .testimonies__content .box p{
@@ -290,7 +296,7 @@ i{
 
 /* ================= MEDIA QUERIES ==================== */
 
-@media (max-width:700px){
+@media (max-width:768px){
     .container{
         width: 100%;
         padding: 0;
@@ -303,6 +309,18 @@ i{
 
     .heading__content img{
         width: 200px;
+    }
+
+    .works__container{
+        width: 100%;
+    }
+
+    .works__container .works__content>div:nth-child(1){
+        scale: 0.8;
+    }
+
+    .works__container .works__content img.main{
+        scale: 0.8;
     }
 
     .servives__container .top__services .box{
